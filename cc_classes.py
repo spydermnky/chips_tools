@@ -16,6 +16,7 @@ class CCField:
         self.type_val = type_val
         self.byte_val = byte_val
 
+
     @property
     def byte_data(self):
         return self.byte_val
@@ -353,6 +354,7 @@ class CCLevelPack:
     """A class defining the data of a pack of cc levels
     Member vars:
         levels (list of CCLevels): the levels of this level pack
+        -> added this meaningless line for assignment purposes
     """
 
     def __init__(self):
